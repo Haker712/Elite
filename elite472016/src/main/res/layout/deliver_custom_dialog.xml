@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/customDialog_txtProduct"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Product :"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/deliverDialog_txtProductName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="GSM (5000Ks)"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/deliverDialog_txtOrder"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Order Qty :"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/deliverDialog_txtOrderQty"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="500"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/deliverDialog_productLimit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Product Limit :"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/deliverDialog_txtProductLimit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="500"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/deliverDialog_txtReturnDeliveryDate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Deliver Qty :"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/deliverDialog_etTotalDeliverQty"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="#000000" />
+
+      
+    </LinearLayout>
+    
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/deliverDialog_txtOrder"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Customer Return Qty :"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/deliverDialog_txtReturnQty"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/deliverDialog_txtReturn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Return Deliver Qty :"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/deliverDialog_txtReturnDeliverQty"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:editable="false"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+  
+    
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView           
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Total Deliver Qty :"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/deliverDialog_txtTotalDeliverQty"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

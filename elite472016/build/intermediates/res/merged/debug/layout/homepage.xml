@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#394b9d"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp" >
+
+        <Button
+            android:id="@+id/home_btnUploadServer"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_marginRight="66dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/send_sever_btn_selector"
+            android:text="Upload To Server"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/home_txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/invoiceCustomerList_btnPay"
+            android:layout_marginLeft="18dp"
+            android:text="Sale-Man  Name  :  "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/home_txtTodayDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/home_txtUserName"
+            android:layout_below="@+id/home_txtUserName"
+            android:text="Today Date : "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+   <Button
+            android:id="@+id/btnReissue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/home_btnUploadServer"
+            android:layout_marginRight="78dp"
+            android:layout_toLeftOf="@+id/home_btnUploadServer"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/send_sever_btn_selector"
+            android:text=" Re Issue"
+            android:textColor="#ffffff" /> 
+ 
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/home_btnCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/home_btnPayment"
+            android:layout_marginRight="17dp"
+            android:layout_toLeftOf="@+id/home_btnAddNewCustomer"
+            android:background="@drawable/customer_btn_selector" />
+
+        <Button
+            android:id="@+id/home_btnSaleReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/home_btnPayment"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/home_btnAddNewCustomer"
+            android:background="@drawable/sale_return_btn_selector" />
+
+        <Button
+            android:id="@+id/home_btnAddNewCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:background="@drawable/add_new_customer_btn_selector" />
+
+        <Button
+            android:id="@+id/home_btnReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/home_btnSaleReturn"
+            android:layout_alignTop="@+id/home_btnPayment"
+            android:layout_marginRight="82dp"
+            android:background="@drawable/report_btn_selector" />
+
+        <Button
+            android:id="@+id/home_btnPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_btnAddNewCustomer"
+            android:layout_marginRight="37dp"
+            android:layout_toLeftOf="@+id/home_btnReport"
+            android:background="@drawable/payment_btn_selector" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/elite_logo" />
+
+    </RelativeLayout>
+
+</LinearLayout>

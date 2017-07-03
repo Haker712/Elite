@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#394b9d"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp" >
+
+        <TextView
+            android:id="@+id/deliveryPage2_txtDelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Delivery Page"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/deliveryPage2_btnBack"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/title_btn_selector"
+            android:text="Back"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp" >
+
+        <TextView
+            android:id="@+id/deliveryPage2_txtInvoiceID1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0123456789"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/creditcollectionTwo_txtInvoiceID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/deliveryPage2_txtInvoiceID1"
+            android:layout_alignBottom="@+id/deliveryPage2_txtInvoiceID1"
+            android:layout_marginRight="23dp"
+            android:layout_toLeftOf="@+id/deliveryPage2_txtInvoiceID1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Invoice ID :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ordered Date : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/deliverypage2_txtOrderedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView01"
+            android:layout_alignBottom="@+id/TextView01"
+            android:layout_toRightOf="@+id/TextView01"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ordered Date :"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="638dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="638dp"
+                android:layout_height="wrap_content"
+                android:background="#2e3146"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:text="Product"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:text="Delivery Qty"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:gravity="center"
+                    android:text="Return Delivery Qty"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:text="Total Amt"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/salePage_lstProduct"
+                android:layout_width="639dp"
+                android:layout_height="280dp" >
+            </ListView>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="640dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:orientation="horizontal"
+                android:padding="2dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/creditcollection_txtTotalPaidAmt"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Total Amount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/deliveryPage2_txtTotalAmt"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/creditcollection_txtTotalUnPaidAmt"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Paid Amount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/deliveryPage2_txtAdvPay"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/creditcollection_txtTotalRemAmt"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Volume Discount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/deliveryPage2_txtVolumeDiscount"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/creditcollection_txtTotalRemAmt"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Net Amount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/deliveryPage2_txtNetAmt"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pay Amount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/deliveryPage2_txtPayAmt"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/TextView05"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Remaining Amt :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/deliveryPage2_txtRemainingAmt"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/TextView03"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="Refund :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/deliveryPage2_txtRefund"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <custom.scroll.LockableScrollView
+            android:id="@+id/deliveryPage2_scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="vertical"
+                    android:padding="7dp" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical"
+                        android:padding="3dp" >
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtPayAmt"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="Receipt Person Name :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <EditText
+                            android:id="@+id/deliveryPage2_etReceiptName"
+                            android:layout_width="fill_parent"
+                            android:layout_height="60dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/creditcollection_txtTotalRemAmt"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pay Amount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <EditText
+                            android:id="@+id/deliveryPage2_etPayAmt"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLength="8" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <Button
+                            android:id="@+id/deliveryPage2_btnPayAmtConfirm"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="6dp"
+                            android:text="OK" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <drawing.canvas.DrawingCanvas
+                            android:id="@+id/deliveryPage2_drawingCanvas"
+                            android:layout_width="fill_parent"
+                            android:layout_height="140dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/sign_bg"
+                            android:inputType="textPostalAddress" />
+
+                        <Button
+                            android:id="@+id/deliveryPage2_btnClear"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:background="@drawable/clear_btn_selector" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp" >
+
+                        <CheckBox
+                            android:id="@+id/deliveryPage2_chkApprove"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:button="@drawable/checkbox_selector"
+                            android:text="  I have approved all data is correct." />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" >
+
+                        <Button
+                            android:id="@+id/deliveryPage2_btnConfirm"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_selector"
+                            android:text="Confirm"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </custom.scroll.LockableScrollView>
+    </LinearLayout>
+
+</LinearLayout>

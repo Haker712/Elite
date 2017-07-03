@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elite"
+    android:versionCode="1"
+    android:versionName="2.0.4.7.16" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+      
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    
+    
+    	<!-- 管理蓝牙设备的权限 -->  
+   	<uses-permission android:name="android.permission.BLUETOOTH"/>
+ 	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>  
+  	<!-- 在sd卡中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    
+      <!-- 向SD卡写入数据权限 -->
+   
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.example.elite.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="HomePage"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="Customer"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="SalePage"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="SalePage2"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="AddNewCustomer"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="DownloadDataFromServer"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="Payment"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+         <!-- Payment by HAH -->
+        <activity
+            android:name="AdvancePayment"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- CreditCollection by HAH -->
+        <activity
+            android:name="CreditCollection"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!-- CreditCollectionTwo by HAH -->
+        <activity
+            android:name="CreditCollectionTwo"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+         <!-- SaleReturn by HAH -->
+        <activity
+            android:name="SaleReturn"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+          <!-- SaleReturn2 by HAH -->
+        <activity
+            android:name="SaleReturn2"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+          <!-- Delivery by HAH -->
+        <activity
+            android:name="Delivery"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+         <!-- DailyChecklist by SMH -->
+        <activity
+            android:name="DailyCheckList"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+         <!-- DailyChecklist by SMH -->
+        <activity
+            android:name="DailyChecklistsReport"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+          <!-- Delivery2 by HAH -->
+        <activity
+            android:name="Delivery2"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+         <!-- PreOrder by HAH -->
+        <activity
+            android:name="PreOrder"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+         <!-- AdvancePaymentPreOrder by HAH -->
+        <activity
+            android:name="AdvancePaymentPreOrder"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        <activity android:name="MainActivity" android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="UploadDataToServer" android:screenOrientation="landscape"></activity>
+        <activity android:name="Report" android:screenOrientation="landscape"></activity>
+        <activity android:name="SaleInvoiceReport2" android:screenOrientation="landscape"></activity>
+        
+         <activity android:name="com.print.PrintSettingActivity" android:screenOrientation="landscape"></activity>
+           <activity android:name="com.print.PrintActivity" android:screenOrientation="landscape"></activity>
+         <activity android:name="com.print.PrintTextActivity" android:screenOrientation="landscape"></activity>
+     
+    </application>
+
+</manifest>

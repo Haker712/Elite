@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#394b9d"
+            android:paddingBottom="13dp"
+            android:paddingTop="13dp" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Sale Invoice Report Details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtSaleDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="7dp"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtSaleDate"
+                android:layout_alignBottom="@+id/txtSaleDate"
+                android:layout_alignParentLeft="true"
+                android:text="CustomerName :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sale_invoice_report2_txtcustomerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtSaleDate"
+                android:layout_alignBottom="@+id/txtSaleDate"
+                android:layout_toRightOf="@+id/textView2"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2e3146"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp" >
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Product"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/txt2"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Qty"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/txt3"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Price"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Discount"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Total Amt"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                    
+                    <TextView
+                        android:id="@+id/txt6"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Remark"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/saleinvoiceReport2_lstProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </ListView>
+            </LinearLayout>
+
+            <custom.scroll.LockableScrollView
+                android:id="@+id/saleCutomList2_scrollView"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:gravity="center|top"
+                        android:orientation="vertical"
+                        android:padding="7dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Invoice No."
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/saleinvoiceReport2_txtInvoiceNo"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView04"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Total Amount"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/saleInvoiceReport2_txtTotalAmt"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>                     
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView08"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Net Amt"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/saleinvoiceReport2_txtNetAmt"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView03"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Due Date"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/saleinvoiceReport2_txtDueDate"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView10"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Pay Amount"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/saleinvoiceReport2_txtPayAmount"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView13"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Refund"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/saleinvoiceReport2_txtRefund"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/txtDate"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Receipt Person"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/saleInvoiceReport2_txtReceiptPerson"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:gravity="center_horizontal" >
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="17dp" >
+
+                            <ImageView
+                                android:id="@+id/saleInvoiceReport2_imgSignImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/add_new" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </custom.scroll.LockableScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#394b9d"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp" >
+
+        <TextView
+            android:id="@+id/slide_txtProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Add New Customer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Customer Name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/addNewCustomer_txtCustomerName"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ ()1234567890"
+						android:inputType="textCapCharacters"
+						android:maxLength="50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Person"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/addNewCustomer_txtContactPerson"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        android:inputType="textCapCharacters"
+                        android:maxLength="50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Phone"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/addNewCustomer_txtPhone"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="phone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView08"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/addNewCustomer_txtAddress"
+                        android:layout_width="400dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="top"
+                        android:layout_weight="1"
+                        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ (),1234567890"
+                        android:inputType="textCapCharacters|textPostalAddress"
+						android:maxLength="100"/>
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Customer Category"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerCustomerCategory"
+                        android:layout_width="400dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Zone"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerZone"
+                        android:layout_width="400dp"
+                        android:layout_height="80dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp" >
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent" >
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/addNewCustomer_btnAdd"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="3dp"
+                        android:background="@drawable/btn_selector"
+                        android:text="Add"
+                        android:textColor="#ffffff" />
+
+                    <Button
+                        android:id="@+id/addNewCustomer_btnCancel"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_selector"
+                        android:text="Cancel"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

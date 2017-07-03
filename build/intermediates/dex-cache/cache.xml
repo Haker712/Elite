@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/haker/Desktop/EliteAndroidStudio/elite472016/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/transforms/dex/debug/folders/1000/2/nineoldandroids-2.4.0_78d8731e7892e9fddb73a91cd983eae5da64d7d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/haker/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_cb4dbd0bf91fed62865d48499f8806839d66d324/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53499ddf76268c92fc81190e75ede3066daaff73">
+        <dex dex="/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b7838870a2b3b539d123bc60d5b5629e8f4000fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/haker/Desktop/EliteAndroidStudio/elite472016/libs/commons-codec-1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4216af16d38465bbab0f3dff8efa14204f7a399a">
+        <dex dex="/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/transforms/dex/debug/folders/1000/2/commons-codec-1.4_3e283537664d304d719b9fbb093a36a1e7ca4000/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/haker/Desktop/EliteAndroidStudio/elite472016/libs/TableFormatString.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0085af1e67344eac3dd463db2ef86e0ee4a27141">
+        <dex dex="/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/transforms/dex/debug/folders/1000/2/TableFormatString_46453a8b26a29a31aa40d79ee84c3673612e5a89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81817d3f14327758f7f5fb8fd37b0ab2944b1f85">
+        <dex dex="/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4483afc0868669dca086e42c827fded677503729/classes.dex" />
+    </item>
+
+</items>

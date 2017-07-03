@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#394b9d"
+            android:paddingBottom="13dp"
+            android:paddingTop="13dp" >
+
+            <TextView
+                android:id="@+id/saleReturn2_txtSaleReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Sale Return"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/saleReturn2_btnGotoCustomer"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/title_btn_selector"
+                android:text="Go to Customer"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        android:id="@+id/creditcollection_txtReceiptPName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="From Date :"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/saleReturn2_et_FromDate"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        
+                        android:editable="false"
+                        android:layout_marginLeft="10dp" />
+                    <Button
+                        android:id="@+id/saleReturn2_btnFromDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/calenda"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                      	android:layout_marginLeft="60dp"
+                        android:textSize="18sp"
+                        android:text="To Date:"
+                         />
+
+                    <EditText
+                        android:id="@+id/saleReturn2_et_ToDate"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                       
+                        android:editable="false"
+                        android:layout_marginLeft="10dp" />
+
+                    <Button
+                        android:id="@+id/saleReturn2_btnToDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/calenda"
+                        android:layout_marginLeft="5dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2e3146"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp" >
+
+                    <TextView
+                        android:id="@+id/creditcollection_txtInvNo"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Product"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/creditcollection_txtInvDate"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Deliver Qty"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/creditcollection_txtPrice"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Return Qty"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/creditcollection_txtInvAmount"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Return Delivery Date"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/saleReturn2_lstProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:scrollbars="none" >
+                </ListView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/creditcollection_txtTotalRemAmt"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="Toal Return Qty :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/saleReturn2_txtTotalReturnQty"
+                            android:layout_width="270dp"
+                            android:layout_height="wrap_content"
+                            android:text="4,000,000"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <custom.scroll.LockableScrollView
+                android:id="@+id/saleReturn2_scrollView"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:gravity="center|top"
+                        android:orientation="vertical"
+                        android:padding="7dp" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/creditcollection_txtPayAmt"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Return Person Name :"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <EditText
+                                android:id="@+id/saleReturn2_et_ReturnPersonName"
+                                android:layout_width="fill_parent"
+                                android:layout_height="40dp"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp" >
+
+                            <drawing.canvas.DrawingCanvas
+                                android:id="@+id/saleReturn2_drawingCanvas"
+                                android:layout_width="fill_parent"
+                                android:layout_height="140dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/sign_bg"
+                                android:inputType="textPostalAddress" />
+
+                            <Button
+                                android:id="@+id/saleReturn2_btnClear"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:background="@drawable/clear_btn_selector" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp" >
+
+                            <CheckBox
+                                android:id="@+id/saleReturn2_chkApprove"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/checkbox_selector"
+                                android:text="  I have approved all data is correct." />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp" >
+
+                            <Button
+                                android:id="@+id/saleReturn2_btnDone"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_selector"
+                                android:text="Done"
+                                android:textColor="#ffffff" />
+
+                            
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </custom.scroll.LockableScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

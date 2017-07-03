@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#394b9d"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp" >
+
+        <Button
+            android:id="@+id/dailycheck_doneBtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/title_btn_selector"
+            android:text="Done"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/saleInvoiceReport2customLayout_txtQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Sale Page"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+    </RelativeLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        	<RelativeLayout 
+        	    android:layout_width="match_parent"
+        	    android:layout_height="wrap_content"
+        	    android:padding="7dp">
+        	    <LinearLayout 
+        	        android:id="@+id/shop_layout"
+        	        android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+        	        android:orientation="horizontal">
+        	        <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="Shop Name :"
+		                android:textAppearance="?android:attr/textAppearanceMedium" />
+        	        
+        	        <TextView
+        	            android:id="@+id/shop_name_txt"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:paddingLeft="5dp"
+		                android:text="HELLO"
+		                android:textAppearance="?android:attr/textAppearanceMedium" />
+        	    </LinearLayout>
+        	   <LinearLayout 
+        	        android:id="@+id/dealer_layout"
+        	        android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+        	        android:layout_below="@+id/shop_layout"
+        	        android:orientation="horizontal">
+        	        <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="Distributor/Dealer :"
+		                android:textAppearance="?android:attr/textAppearanceMedium" />
+        	        
+        	        <TextView
+        	            android:id="@+id/dealer_txt"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:paddingLeft="5dp"
+		                android:text="location"
+		                android:textAppearance="?android:attr/textAppearanceMedium" />
+        	    </LinearLayout>        	
+        	    <LinearLayout 
+        	        android:id="@+id/region_layout"
+        	        android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+        	        android:layout_below="@+id/dealer_layout"
+        	        android:orientation="horizontal">
+        	        <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="State/Region :"
+		                android:textAppearance="?android:attr/textAppearanceMedium" />
+        	        
+        	        <TextView
+        	            android:id="@+id/region_txt"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:paddingLeft="5dp"
+		                android:text=""
+		                android:textAppearance="?android:attr/textAppearanceMedium" />
+        	    </LinearLayout>        	    
+        	    
+        	    <LinearLayout
+        	        android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+        	        android:layout_above="@+id/dealer_layout"
+        	        android:layout_alignParentRight="true"
+        	        android:orientation="horizontal" >
+
+        	        <TextView
+        	            android:layout_width="wrap_content"
+        	            android:layout_height="wrap_content"
+        	            android:text="Date :"
+        	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	        <TextView
+        	            android:id="@+id/date_txt"
+        	            android:layout_width="wrap_content"
+        	            android:layout_height="wrap_content"
+        	            android:paddingLeft="5dp"
+        	            android:text=""
+        	            android:textAppearance="?android:attr/textAppearanceMedium" />
+        	    </LinearLayout>
+        	    <LinearLayout
+        	        android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+        	        android:layout_above="@+id/region_layout"
+        	        android:layout_alignParentRight="true"
+        	        android:orientation="horizontal" >
+
+        	        <TextView
+        	            android:layout_width="wrap_content"
+        	            android:layout_height="wrap_content"
+        	            android:text="Checking Time :"
+        	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	        <TextView
+        	            android:id="@+id/checking_time_txt"
+        	            android:layout_width="wrap_content"
+        	            android:layout_height="wrap_content"
+        	            android:paddingLeft="5dp"
+        	            android:text="11:13:39"
+        	            android:textAppearance="?android:attr/textAppearanceMedium" />
+        	    </LinearLayout>
+        	   
+        	</RelativeLayout>            
+           <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2e3146"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp" >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="Mystery shopping task"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Situation"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Level"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Remark"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+            <ListView
+                android:id="@+id/dailychecklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+            </ListView>
+        </LinearLayout>
+</LinearLayout>

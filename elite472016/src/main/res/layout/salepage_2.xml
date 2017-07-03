@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#394b9d"
+            android:paddingBottom="13dp"
+            android:paddingTop="13dp" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Sale Page"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/productBalanceReport_txtDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2e3146"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp" >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Product"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Qty"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Price"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Discount"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Total Amt"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+                    
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Remark"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#ffffff" />
+
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/productBalanceReport_lstProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </ListView>
+            </LinearLayout>
+
+            <custom.scroll.LockableScrollView
+                android:id="@+id/saleCutomList2_scrollView"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:gravity="center|top"
+                        android:orientation="vertical"
+                        android:padding="7dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Invoice No:"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/salePage2_txtInvoiceNo"
+                                android:layout_width="190dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView04"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Total Amt :"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/salePage2_txtTotalAmt"
+                                android:layout_width="190dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                       
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView08"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Net Amt:"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/salePage2_txtNetAmt"
+                                android:layout_width="190dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView03"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Due Date:"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/saleinvoiceReport2_txtDueDate"
+                                android:layout_width="190dp"
+                                android:layout_height="wrap_content"
+                                android:text="Medium Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView10"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Pay Amt:"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                            <EditText
+                                android:id="@+id/salePage2_edtPayAmount"
+                                android:layout_width="190dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                android:inputType="number"
+                                android:maxLength="9" />
+
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/TextView14"
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Refund:"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/salePage2_txtRefund"
+                                android:layout_width="190dp"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/txtDate"
+                                android:layout_width="120dp"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="top"
+                                android:text="Receipt Person"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textSize="16sp" />
+
+                            <EditText
+                                android:id="@+id/salePage2_edtReceiptPersonName"
+                                android:layout_width="190dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1" 
+                                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+								android:inputType="text"
+								android:maxLength="20">
+                            </EditText>
+
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <drawing.canvas.DrawingCanvas
+                                android:id="@+id/salePage2_drawingCanvas"
+                                android:layout_width="fill_parent"
+                                android:layout_height="185dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/sign_bg"
+                                android:inputType="textPostalAddress" />
+
+                            <Button
+                                android:id="@+id/salePage2_btnClear"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:background="@drawable/clear_btn_selector" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <CheckBox
+                                android:id="@+id/salePage2_chkApprove"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/checkbox_selector"
+                                android:text="I have approved all data is correct." />
+                        </LinearLayout>
+                        
+                        <LinearLayout 
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:gravity="center">
+                            
+                            <TextView 
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Printer Status :"
+                                android:textSize="18sp"
+                                android:layout_gravity="center"
+                                />
+                            
+                             <TextView 
+                                 android:id="@+id/txtPrinterStatus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="not connected"
+                                android:textSize="18sp"
+                                android:layout_gravity="center"/>
+                                
+                            
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="17dp" >
+
+                            <Button
+                                android:id="@+id/salePage2_btnDone"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_selector"
+                                android:text="Done"
+                                android:textColor="#ffffff" />
+                            
+                            <Button
+                                android:id="@+id/salePage2_btnPrint"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_selector"
+                                android:text="Print"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </custom.scroll.LockableScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

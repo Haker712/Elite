@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#394b9d"
+            android:paddingBottom="13dp"
+            android:paddingTop="13dp" >
+
+            <TextView
+                android:id="@+id/advpaymentpage_txtAdvancePayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Advance Payment"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="23sp" />
+
+            <Button
+                android:id="@+id/advpaymentpage_btnGoToHome"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/title_btn_selector"
+                android:text="Go to Customer Page"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp" >
+
+                    <TextView
+                        android:id="@+id/advpaymentpage_txtInvoice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="Invoice ID:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"  />
+
+                    <TextView
+                        android:id="@+id/advpaymentpage_txtAdvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/advpaymentpage_txtInvoice"
+                        android:layout_alignBottom="@+id/advpaymentpage_txtInvoice"
+                        android:layout_marginRight="13dp"
+                        android:layout_toLeftOf="@+id/advpaymentpage_txtDate"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Advance Payment Date :"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <Spinner
+                        android:id="@+id/advpaymentpage_spinner"
+                        android:layout_width="160dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/advpaymentpage_txtInvoice" />
+
+                    <TextView
+                        android:id="@+id/advpaymentpage_txtDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/advpaymentpage_txtAdvDate"
+                        android:layout_marginRight="16dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="12/5/2014"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="7dp"
+                    android:paddingTop="7dp" >
+
+                    <TextView
+                        android:id="@+id/advpaymentpage_txtProduct"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Product"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/advpaymentpage_txtDeliveryDate"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Delivery Date"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/advpaymentpage_txtOrderQty"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Ordered Qty"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/advpaymentpage_txtPrice"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Price"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:id="@+id/advpaymentpage_txtTotalAmt"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Total Amt"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/advpaymentpage_lstProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp" >
+                </ListView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtAllTotalAmt"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:text="Total Amount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtTotalAmountNo"
+                            android:layout_width="270dp"
+                            android:layout_height="wrap_content"
+                            android:text="5,000,000"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtAdvPayAmt"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:text="Advance Payment Amount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtAdvPayAmtNo"
+                            android:layout_width="270dp"
+                            android:layout_height="wrap_content"
+                            android:text="100,000"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtDiscount"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:text="Discount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtDiscountNo"
+                            android:layout_width="270dp"
+                            android:layout_height="wrap_content"
+                            android:text="100,000"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+                    
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtNetAmt"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:text="Net Amount :"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/advpaymentpage_txtNetAmtNo"
+                            android:layout_width="270dp"
+                            android:layout_height="wrap_content"
+                            android:text="4,000,000"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <custom.scroll.LockableScrollView
+                android:id="@+id/saleCutomList2_scrollView"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:gravity="center|top"
+                        android:orientation="vertical"
+                        android:padding="7dp" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:id="@+id/advpaymentpage_txtDeliDate"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Delivery Date :"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/advpaymentpage_txtDeliDateNo"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="12/4/2014"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/advpaymentpage_txtCreditTerms"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Credit Term :"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <TextView
+                                android:id="@+id/advpaymentpage_txtCreditTermsNo"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:text="Blank Text"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp" >
+
+                            <TextView
+                                android:id="@+id/advpaymentpage_txtPayAmt"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="Payment Amount"
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                            <EditText
+                                android:id="@+id/advpaymentpage_txtPayAmtNo"
+                                android:layout_width="160dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1" />
+                        </LinearLayout>
+
+                        
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <drawing.canvas.DrawingCanvas
+                                android:id="@+id/advpaymentpage_drawingCanvas"
+                                android:layout_width="fill_parent"
+                                android:layout_height="140dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/sign_bg"
+                                android:inputType="textPostalAddress" />
+
+                            <Button
+                                android:id="@+id/advpaymentpage_btnClear"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:background="@drawable/clear_btn_selector" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp" >
+
+                            <CheckBox
+                                android:id="@+id/advpaymentpage_chkApprove"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/checkbox_selector"
+                                android:text="  I have approved all data is correct." />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp" >
+
+                            <Button
+                                android:id="@+id/advpaymentpage_btnConfirm"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_selector"
+                                android:text="Confirm"
+                                android:textColor="#ffffff" />
+
+                            <Button
+                                android:id="@+id/advpaymentpage_btnPrint"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="2dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/btn_selector"
+                                android:text="Print"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </custom.scroll.LockableScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

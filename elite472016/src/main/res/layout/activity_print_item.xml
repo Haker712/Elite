@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#394b9d"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp" >
+
+        <TextView
+            android:id="@+id/slide_txtProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Print"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+		    android:id="@+id/print_btn"
+	        android:layout_width="270dp"
+	        android:layout_height="43dp"
+	        android:layout_marginTop="14dp"
+	        android:background="@drawable/login_btn_selector"
+	        android:text="Print"
+	        android:layout_gravity="center"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp" />
+        <View 
+            android:layout_width="15dp"
+            android:layout_height="10dp"/>
+        <Button
+		    android:id="@+id/exit_btn"
+	        android:layout_width="270dp"
+	        android:layout_height="43dp"
+	        android:layout_marginTop="14dp"
+	        android:background="@drawable/login_btn_selector"
+	        android:text="Exit"
+	        android:layout_gravity="center"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp" />
+    </LinearLayout>	
+</LinearLayout>

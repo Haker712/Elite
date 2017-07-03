@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/slider_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/slider_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/list_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/list_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/clear_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/clear_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/device_name.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/device_name.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/preorder_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/preorder_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/add_new_customer_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/add_new_customer_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/login_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/login_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/jazzy_home_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/jazzy_home_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/report_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/report_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/payment_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/payment_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/sale_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/sale_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/send_sever_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/send_sever_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/checkbox_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/progressbar2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/progressbar2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/delivery_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/delivery_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/title_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/title_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/creditcollection_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/creditcollection_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/customer_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/customer_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/list_item_bg_normal.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/list_item_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/sale_return_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/sale_return_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/list_item_bg_pressed.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/home_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/home_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/jazzy_menu_back_btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/jazzy_menu_back_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/drawable-hdpi-v4/btn_selector.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/drawable-hdpi/btn_selector.xml"
+    }
+]

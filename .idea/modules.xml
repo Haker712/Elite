@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EliteAndroidStudio.iml" filepath="$PROJECT_DIR$/EliteAndroidStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elite472016/elite472016.iml" filepath="$PROJECT_DIR$/elite472016/elite472016.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickScroll/quickScroll.iml" filepath="$PROJECT_DIR$/quickScroll/quickScroll.iml" />
+    </modules>
+  </component>
+</project>

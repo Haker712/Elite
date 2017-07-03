@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/creditcollectionpage.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/creditcollectionpage.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_custom_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_custom_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/saleinvoicereport_custom_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/saleinvoicereport_custom_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/add_new_customer.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/add_new_customer.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/delivery_list_row_two.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/delivery_list_row_two.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/upload_data_page.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/upload_data_page.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_invoice_report.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_invoice_report.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/deliver_custom_dialog.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/deliver_custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/salepage_2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/salepage_2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/daily_checklist_activity.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/daily_checklist_activity.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/download_data_page.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/download_data_page.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dynamiclayout_creditcollection.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dynamiclayout_creditcollection.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dialog_box_remark.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dialog_box_remark.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/report_frag.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/report_frag.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dynamiclayout_salequantity.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dynamiclayout_salequantity.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/preorderpage.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/preorderpage.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/paymentpage.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/paymentpage.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/activity_print_items.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/activity_print_items.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/delivery_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/delivery_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_return_custom_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_return_custom_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/activity_printsetting.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/activity_printsetting.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/creditcollectiontwo.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/creditcollectiontwo.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_return_page.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_return_page.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/creditcollection_custom_listrow.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/creditcollection_custom_listrow.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/salepage.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/salepage.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/devicelist_dialog.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/devicelist_dialog.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/saleinvoicereport_custom_list_row2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/saleinvoicereport_custom_list_row2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/productbalancereport_custom_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/productbalancereport_custom_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/activity_print_item.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/activity_print_item.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/daily_check_report_list.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/daily_check_report_list.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/preorder_custom_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/preorder_custom_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/salesummaryreport_custom_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/salesummaryreport_custom_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dynamiclayout_preorderquantity.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dynamiclayout_preorderquantity.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/slide_drawer_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/slide_drawer_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/daily_check_lists_view.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/daily_check_lists_view.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dynamiclayout_radiobutton.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dynamiclayout_radiobutton.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/layout_for_autocompletext.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/layout_for_autocompletext.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/salesummaryreport.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/salesummaryreport.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/preorder_custom_list_row2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/preorder_custom_list_row2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_return_custom_dialog.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_return_custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/customer.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/customer.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/homepage.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/homepage.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/zone_spinnerrow.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/zone_spinnerrow.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dynamiclayout_deliverquantity.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dynamiclayout_deliverquantity.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_custom2_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_custom2_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/productbalance_report.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/productbalance_report.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/report.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/report.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/daily_check_lists_activity.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/daily_check_lists_activity.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/advance_payment_preorder.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/advance_payment_preorder.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_return_page_2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_return_page_2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/splash_screen.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_return_custom_list_row_page2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_return_custom_list_row_page2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/creditcollection_custom_listrow2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/creditcollection_custom_listrow2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/delivery_page.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/delivery_page.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/daily_check_list_row.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/daily_check_list_row.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/preorderlist.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/preorderlist.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/delivery_page2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/delivery_page2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/cell_for_jzay.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/cell_for_jzay.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dymamiclayoutforlogin.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dymamiclayoutforlogin.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/daily_check_report.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/daily_check_report.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/advancepaymentpage.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/advancepaymentpage.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/slide_drawer_layout.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/slide_drawer_layout.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dynamiclayout_dailyremark.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dynamiclayout_dailyremark.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/sale_invoice_report2.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/sale_invoice_report2.xml"
+    },
+    {
+        "merged": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/build/intermediates/res/merged/debug/layout/dynamiclayout_salediscount.xml",
+        "source": "/Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/res/layout/dynamiclayout_salediscount.xml"
+    }
+]

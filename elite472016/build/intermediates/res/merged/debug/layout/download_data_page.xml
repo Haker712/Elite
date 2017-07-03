@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/downLoad_pbDownLoad"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="188dp"
+        android:progressDrawable="@drawable/progressbar2" />
+
+    <TextView
+        android:id="@+id/downLoad_txtSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="23dp"
+        android:text="Success To Download\n==================="
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#79b900" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#394b9d"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp" >
+
+        <Button
+            android:id="@+id/invoiceCustomerList_btnPay"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/title_btn_selector"
+            android:text="Re-Download For Fail Data"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/report_btnHome"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/title_btn_selector"
+            android:text="Cancel"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Download Data"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/downLoad_txtCurrentTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/downLoad_pbDownLoad"
+        android:layout_below="@+id/downLoad_pbDownLoad"
+        android:layout_marginTop="3dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/downLoad_txtPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/downLoad_txtCurrentTask"
+        android:layout_alignBottom="@+id/downLoad_txtCurrentTask"
+        android:layout_alignRight="@+id/downLoad_pbDownLoad"
+        android:layout_marginTop="3dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/downLoad_txtFail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="23dp"
+        android:text="Fail To Download\n==============="
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#e70a0a" />
+    
+</RelativeLayout>

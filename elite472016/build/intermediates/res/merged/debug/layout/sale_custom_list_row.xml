@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/saleCustomListRow_txtProductName"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Medium Text"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/saleCustomList_btnSaleQty"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_selector"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="0"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/saleCustomListRow_txtPrice"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Medium Text"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/saleCustomListRow_btnDiscount"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_selector"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:text="0"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/saleCustomListRow_txtTotalAmt"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Medium Text"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/chkFOC"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:gravity="center" />
+
+</LinearLayout>

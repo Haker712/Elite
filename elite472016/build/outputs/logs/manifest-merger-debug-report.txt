@@ -1,0 +1,292 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:2:1-167:12
+	package
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:5:5-37
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [EliteAndroidStudio:quickScroll:unspecified] /Users/haker/Desktop/EliteAndroidStudio/quickScroll/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+		INJECTED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:15:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:16:5-97
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:18:5-92
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:19:5-92
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:23:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:24:3-71
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:24:20-69
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:26:22-81
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:30:5-74
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:30:22-71
+application
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:33:5-165:19
+	android:label
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:36:9-41
+	android:allowBackup
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:34:9-35
+	android:icon
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:35:9-38
+	android:largeHeap
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:37:9-33
+	android:theme
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:38:9-62
+activity#com.example.elite.SplashScreen
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:39:9-48:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:42:13-50
+	android:label
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:41:13-45
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:40:13-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:46:27-74
+activity#com.example.elite.HomePage
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:49:9-53:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:52:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:51:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:50:13-36
+activity#com.example.elite.Customer
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:54:9-58:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:57:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:56:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:55:13-36
+activity#com.example.elite.SalePage
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:59:9-63:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:62:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:61:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:60:13-36
+activity#com.example.elite.SalePage2
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:64:9-68:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:67:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:66:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:65:13-37
+activity#com.example.elite.AddNewCustomer
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:69:9-73:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:72:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:71:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:70:13-42
+activity#com.example.elite.DownloadDataFromServer
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:74:9-78:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:77:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:76:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:75:13-50
+activity#com.example.elite.Payment
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:79:9-83:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:82:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:81:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:80:13-35
+activity#com.example.elite.AdvancePayment
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:85:9-89:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:88:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:87:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:86:13-42
+activity#com.example.elite.CreditCollection
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:91:9-95:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:94:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:93:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:92:13-44
+activity#com.example.elite.CreditCollectionTwo
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:97:9-101:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:100:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:99:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:98:13-47
+activity#com.example.elite.SaleReturn
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:104:9-108:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:107:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:106:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:105:13-38
+activity#com.example.elite.SaleReturn2
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:111:9-115:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:114:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:113:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:112:13-39
+activity#com.example.elite.Delivery
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:117:9-121:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:120:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:119:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:118:13-36
+activity#com.example.elite.DailyCheckList
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:123:9-127:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:126:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:125:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:124:13-42
+activity#com.example.elite.DailyChecklistsReport
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:130:9-134:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:133:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:132:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:131:13-49
+activity#com.example.elite.Delivery2
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:137:9-141:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:140:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:139:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:138:13-37
+activity#com.example.elite.PreOrder
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:143:9-147:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:146:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:145:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:144:13-36
+activity#com.example.elite.AdvancePaymentPreOrder
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:149:9-153:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:152:13-50
+	android:configChanges
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:151:13-61
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:150:13-50
+activity#com.example.elite.MainActivity
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:155:9-156:20
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:155:47-84
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:155:19-46
+activity#com.example.elite.UploadDataToServer
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:157:9-102
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:157:53-90
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:157:19-52
+activity#com.example.elite.Report
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:158:9-90
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:158:41-78
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:158:19-40
+activity#com.example.elite.SaleInvoiceReport2
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:159:9-102
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:159:53-90
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:159:19-52
+activity#com.print.PrintSettingActivity
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:161:10-115
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:161:66-103
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:161:20-65
+activity#com.print.PrintActivity
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:162:12-110
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:162:61-98
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:162:22-60
+activity#com.print.PrintTextActivity
+ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:163:10-112
+	android:screenOrientation
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:163:63-100
+	android:name
+		ADDED from /Users/haker/Desktop/EliteAndroidStudio/elite472016/src/main/AndroidManifest.xml:163:20-62

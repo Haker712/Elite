@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="holo_blue">#FF33E5B5</color>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="green">#000000</drawable>
+    <drawable name="blue">#394b9d</drawable>
+      <color name="list_divider">#272727</color>
+        <color name="list_background">#303030</color>
+         <color name="list_background_pressed">#992416</color>
+
+</resources>
